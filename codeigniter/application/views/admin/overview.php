@@ -11,14 +11,9 @@
 
     <title>SB Admin - Dashboard</title>
 
-	<!-- Bootstrap core CSS-->
-	<link href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
-
-	<!-- Custom fonts for this template-->
-	<link href="<?php echo base_url('assets/fontawesome-free/css/all.min.css') ?>" rel="stylesheet" type="text/css">
-
-	<!-- Page level plugin CSS-->
-	<link href="<?php echo base_url('assets/datatables/dataTables.bootstrap4.css') ?>" rel="stylesheet">
+	    <link href="<?php echo base_url('css/styles.css')?>" rel="stylesheet" />
+        <link href="<?php echo base_url('https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css')?>" rel="stylesheet" crossorigin="anonymous" />
+        <script src="<?php echo base_url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js')?>" crossorigin="anonymous"></script>
 
 	<!-- Custom styles for this template-->
 	<link href="<?php echo base_url('css/sb-admin.css') ?>" rel="stylesheet">
@@ -751,21 +746,15 @@
       </div>
     </div>
 
-	<!-- Bootstrap core JavaScript-->
-	<script src="<?php echo base_url('assets/jquery/jquery.min.js') ?>"></script>
-	<script src="<?php echo base_url('assets/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
-
-	<!-- Core plugin JavaScript-->
-	<script src="<?php echo base_url('assets/jquery-easing/jquery.easing.min.js') ?>"></script>
-	<!-- Page level plugin JavaScript-->
-	<script src="<?php echo base_url('assets/chart.js/Chart.min.js') ?>"></script>
-	<script src="<?php echo base_url('assets/datatables/jquery.dataTables.js') ?>"></script>
-	<script src="<?php echo base_url('assets/datatables/dataTables.bootstrap4.js') ?>"></script>
-	<!-- Custom scripts for all pages-->
-	<script src="<?php echo base_url('js/sb-admin.min.js') ?>"></script>
-	<!-- Demo scripts for this page-->
-	<script src="<?php echo base_url('js/demo/datatables-demo.js') ?>"></script>
-	<script src="<?php echo base_url('js/demo/chart-area-demo.js') ?>"></script>
+	<script src="<?php echo base_url('https://code.jquery.com/jquery-3.4.1.min.js')?>" crossorigin="anonymous"></script>
+        <script src="<?php echo base_url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js')?>" crossorigin="anonymous"></script>
+        <script src="<?php echo base_url('js/scripts.js')?>"></script>
+        <script src="<?php echo base_url('https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js')?>" crossorigin="anonymous"></script>
+        <script src="<?php echo base_url('assets/demo/chart-area-demo.js')?>"></script>
+        <script src="<?php echo base_url('assets/demo/chart-bar-demo.js')?>"></script>
+        <script src="<?php echo base_url('https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js')?>" crossorigin="anonymous"></script>
+        <script src="<?php echo base_url('https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js')?>" crossorigin="anonymous"></script>
+        <script src="<?php echo base_url('assets/demo/datatables-demo.js')?>"></script>
 
 
   </body>
